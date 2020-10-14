@@ -34,7 +34,7 @@ This is a basic modification of the web-based ConVEM and is simply provided to e
 
 The script uses a multi-threading approach that could be converted to Python multi-processing (v 2.7 as the code is not compatible with Python 3.0). We avoided multi-processing to protect our web-server from excessive load, but on a multi-core system this could give a big speed benefit. Essentially the parallel runs would be handled in the same way.
 
-Sample session
+### Sample session
 
 ```
 $ python2.7 convem_cmdline.py
